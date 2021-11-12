@@ -3,6 +3,9 @@ defmodule Try do
     IO.puts("Hola #{argv}")
   end
 
+  def helloworld do
+    IO.puts("Hello world!!")
+  end
 
   def standard do
     IO.puts("Introduce una palabra para standard output")
